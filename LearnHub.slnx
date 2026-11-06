@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="LearnHub.API/LearnHub.API.csproj" />
+  <Project Path="LearnHub.Application/LearnHub.Application.csproj" />
+  <Project Path="LearnHub.Domain/LearnHub.Domain.csproj" />
+  <Project Path="LearnHub.Infrastructure/LearnHub.Infrastructure.csproj" />
+</Solution>
