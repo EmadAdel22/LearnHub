@@ -1,11 +1,49 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "LearnHub.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "LearnHub.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LearnHub.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LearnHub.Application.dll": {}
+        }
+      },
+      "LearnHub.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/LearnHub.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LearnHub.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LearnHub.Application/1.0.0": {
+      "type": "project",
+      "path": "../LearnHub.Application/LearnHub.Application.csproj",
+      "msbuildProject": "../LearnHub.Application/LearnHub.Application.csproj"
+    },
+    "LearnHub.Domain/1.0.0": {
+      "type": "project",
+      "path": "../LearnHub.Domain/LearnHub.Domain.csproj",
+      "msbuildProject": "../LearnHub.Domain/LearnHub.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "LearnHub.Application >= 1.0.0",
+      "LearnHub.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\AlexStore\\.nuget\\packages\\": {},
@@ -37,8 +75,16 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\Emad\\LearnHub\\LearnHub.Application\\LearnHub.Application.csproj": {
+              "projectPath": "F:\\Emad\\LearnHub\\LearnHub.Application\\LearnHub.Application.csproj"
+            },
+            "F:\\Emad\\LearnHub\\LearnHub.Domain\\LearnHub.Domain.csproj": {
+              "projectPath": "F:\\Emad\\LearnHub\\LearnHub.Domain\\LearnHub.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -51,10 +97,11 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net10.0": {
+        "framework": "net10.0",
         "targetAlias": "net10.0",
         "imports": [
           "net461",
@@ -72,7 +119,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
