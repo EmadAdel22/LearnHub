@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "F:\\Emad\\LearnHub\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{816554FB-B357-FEA2-88EB-BBDB406E8489}|LearnHub.Infrastructure\\LearnHub.Infrastructure.csproj|f:\\emad\\learnhub\\learnhub.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{816554FB-B357-FEA2-88EB-BBDB406E8489}|LearnHub.Infrastructure\\LearnHub.Infrastructure.csproj|solutionrelative:learnhub.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{816554FB-B357-FEA2-88EB-BBDB406E8489}|LearnHub.Infrastructure\\LearnHub.Infrastructure.csproj|f:\\emad\\learnhub\\learnhub.infrastructure\\learnhub.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{816554FB-B357-FEA2-88EB-BBDB406E8489}|LearnHub.Infrastructure\\LearnHub.Infrastructure.csproj|solutionrelative:learnhub.infrastructure\\learnhub.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -19,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{9FA2407A-504D-B693-EEED-5E2CF0B209A4}|LearnHub.API\\LearnHub.API.csproj|solutionrelative:learnhub.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{816554FB-B357-FEA2-88EB-BBDB406E8489}|LearnHub.Infrastructure\\LearnHub.Infrastructure.csproj|f:\\emad\\learnhub\\learnhub.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816554FB-B357-FEA2-88EB-BBDB406E8489}|LearnHub.Infrastructure\\LearnHub.Infrastructure.csproj|solutionrelative:learnhub.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{816554FB-B357-FEA2-88EB-BBDB406E8489}|LearnHub.Infrastructure\\LearnHub.Infrastructure.csproj|f:\\emad\\learnhub\\learnhub.infrastructure\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{816554FB-B357-FEA2-88EB-BBDB406E8489}|LearnHub.Infrastructure\\LearnHub.Infrastructure.csproj|solutionrelative:learnhub.infrastructure\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LearnHub.Infrastructure",
               "DocumentMoniker": "F:\\Emad\\LearnHub\\LearnHub.Infrastructure\\LearnHub.Infrastructure.csproj",
               "RelativeDocumentMoniker": "LearnHub.Infrastructure\\LearnHub.Infrastructure.csproj",
@@ -51,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LearnHub.API",
               "DocumentMoniker": "F:\\Emad\\LearnHub\\LearnHub.API\\LearnHub.API.csproj",
               "RelativeDocumentMoniker": "LearnHub.API\\LearnHub.API.csproj",
@@ -64,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Emad\\LearnHub\\LearnHub.API\\Program.cs",
               "RelativeDocumentMoniker": "LearnHub.API\\Program.cs",
@@ -77,7 +77,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "F:\\Emad\\LearnHub\\LearnHub.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "LearnHub.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "ToolTip": "F:\\Emad\\LearnHub\\LearnHub.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeToolTip": "LearnHub.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAB8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-13T10:49:38.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "F:\\Emad\\LearnHub\\LearnHub.API\\appsettings.json",
               "RelativeDocumentMoniker": "LearnHub.API\\appsettings.json",
@@ -86,19 +99,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-11-13T11:02:39.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "F:\\Emad\\LearnHub\\LearnHub.Infrastructure\\Persistence\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "LearnHub.Infrastructure\\Persistence\\ApplicationDbContext.cs",
-              "ToolTip": "F:\\Emad\\LearnHub\\LearnHub.Infrastructure\\Persistence\\ApplicationDbContext.cs",
-              "RelativeToolTip": "LearnHub.Infrastructure\\Persistence\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBYAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-13T10:49:38.349Z",
               "EditorCaption": ""
             },
             {

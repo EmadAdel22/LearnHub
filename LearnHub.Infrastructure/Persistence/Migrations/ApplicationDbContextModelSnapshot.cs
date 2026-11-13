@@ -63,7 +63,8 @@ namespace LearnHub.Infrastructure.Persistence.Migrations
                         .HasColumnType("bit");
 
                     b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
+                        .HasPrecision(10, 2)
+                        .HasColumnType("decimal(10,2)");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -72,6 +73,8 @@ namespace LearnHub.Infrastructure.Persistence.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
+
+                    b.HasIndex("InstructorId");
 
                     b.ToTable("Courses");
                 });
@@ -102,6 +105,11 @@ namespace LearnHub.Infrastructure.Persistence.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("CourseId");
+
+                    b.HasIndex("EnrolledByUserId");
+
+                    b.HasIndex("StudentId", "CourseId")
+                        .IsUnique();
 
                     b.ToTable("Enrollments");
                 });
@@ -160,9 +168,10 @@ namespace LearnHub.Infrastructure.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("EnrollmentId");
-
                     b.HasIndex("LessonId");
+
+                    b.HasIndex("EnrollmentId", "LessonId")
+                        .IsUnique();
 
                     b.ToTable("LessonProgresses");
                 });
@@ -394,7 +403,13 @@ namespace LearnHub.Infrastructure.Persistence.Migrations
                     b.HasOne("LearnHub.Domain.Entities.Category", "Category")
                         .WithMany()
                         .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("LearnHub.Infrastructure.Identity.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("InstructorId")
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Category");
@@ -405,7 +420,18 @@ namespace LearnHub.Infrastructure.Persistence.Migrations
                     b.HasOne("LearnHub.Domain.Entities.Course", "Course")
                         .WithMany()
                         .HasForeignKey("CourseId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("LearnHub.Infrastructure.Identity.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("EnrolledByUserId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.HasOne("LearnHub.Infrastructure.Identity.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("StudentId")
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Course");
@@ -433,7 +459,7 @@ namespace LearnHub.Infrastructure.Persistence.Migrations
                     b.HasOne("LearnHub.Domain.Entities.Lesson", "Lesson")
                         .WithMany()
                         .HasForeignKey("LessonId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Enrollment");

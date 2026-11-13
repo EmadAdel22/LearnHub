@@ -178,7 +178,7 @@ namespace LearnHub.Infrastructure.Persistence.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Price = table.Column<decimal>(type: "decimal(10,2)", precision: 10, scale: 2, nullable: false),
                     IsPublished = table.Column<bool>(type: "bit", nullable: false),
                     CategoryId = table.Column<int>(type: "int", nullable: false),
                     InstructorId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
@@ -187,11 +187,17 @@ namespace LearnHub.Infrastructure.Persistence.Migrations
                 {
                     table.PrimaryKey("PK_Courses", x => x.Id);
                     table.ForeignKey(
+                        name: "FK_Courses_AspNetUsers_InstructorId",
+                        column: x => x.InstructorId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
                         name: "FK_Courses_Categories_CategoryId",
                         column: x => x.CategoryId,
                         principalTable: "Categories",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -210,11 +216,23 @@ namespace LearnHub.Infrastructure.Persistence.Migrations
                 {
                     table.PrimaryKey("PK_Enrollments", x => x.Id);
                     table.ForeignKey(
+                        name: "FK_Enrollments_AspNetUsers_EnrolledByUserId",
+                        column: x => x.EnrolledByUserId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_Enrollments_AspNetUsers_StudentId",
+                        column: x => x.StudentId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
                         name: "FK_Enrollments_Courses_CourseId",
                         column: x => x.CourseId,
                         principalTable: "Courses",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -286,7 +304,7 @@ namespace LearnHub.Infrastructure.Persistence.Migrations
                         column: x => x.LessonId,
                         principalTable: "Lessons",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
@@ -334,14 +352,31 @@ namespace LearnHub.Infrastructure.Persistence.Migrations
                 column: "CategoryId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Courses_InstructorId",
+                table: "Courses",
+                column: "InstructorId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Enrollments_CourseId",
                 table: "Enrollments",
                 column: "CourseId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_LessonProgresses_EnrollmentId",
+                name: "IX_Enrollments_EnrolledByUserId",
+                table: "Enrollments",
+                column: "EnrolledByUserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Enrollments_StudentId_CourseId",
+                table: "Enrollments",
+                columns: new[] { "StudentId", "CourseId" },
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_LessonProgresses_EnrollmentId_LessonId",
                 table: "LessonProgresses",
-                column: "EnrollmentId");
+                columns: new[] { "EnrollmentId", "LessonId" },
+                unique: true);
 
             migrationBuilder.CreateIndex(
                 name: "IX_LessonProgresses_LessonId",
@@ -384,9 +419,6 @@ namespace LearnHub.Infrastructure.Persistence.Migrations
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
-                name: "AspNetUsers");
-
-            migrationBuilder.DropTable(
                 name: "Enrollments");
 
             migrationBuilder.DropTable(
@@ -397,6 +429,9 @@ namespace LearnHub.Infrastructure.Persistence.Migrations
 
             migrationBuilder.DropTable(
                 name: "Courses");
+
+            migrationBuilder.DropTable(
+                name: "AspNetUsers");
 
             migrationBuilder.DropTable(
                 name: "Categories");
