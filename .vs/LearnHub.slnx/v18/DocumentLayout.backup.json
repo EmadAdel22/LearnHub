@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "F:\\Emad\\LearnHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{816554FB-B357-FEA2-88EB-BBDB406E8489}|LearnHub.Infrastructure\\LearnHub.Infrastructure.csproj|f:\\emad\\learnhub\\learnhub.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816554FB-B357-FEA2-88EB-BBDB406E8489}|LearnHub.Infrastructure\\LearnHub.Infrastructure.csproj|solutionrelative:learnhub.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{816554FB-B357-FEA2-88EB-BBDB406E8489}|LearnHub.Infrastructure\\LearnHub.Infrastructure.csproj|f:\\emad\\learnhub\\learnhub.infrastructure\\learnhub.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{816554FB-B357-FEA2-88EB-BBDB406E8489}|LearnHub.Infrastructure\\LearnHub.Infrastructure.csproj|solutionrelative:learnhub.infrastructure\\learnhub.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FA2407A-504D-B693-EEED-5E2CF0B209A4}|LearnHub.API\\LearnHub.API.csproj|f:\\emad\\learnhub\\learnhub.api\\learnhub.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9FA2407A-504D-B693-EEED-5E2CF0B209A4}|LearnHub.API\\LearnHub.API.csproj|solutionrelative:learnhub.api\\learnhub.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9FA2407A-504D-B693-EEED-5E2CF0B209A4}|LearnHub.API\\LearnHub.API.csproj|f:\\emad\\learnhub\\learnhub.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9FA2407A-504D-B693-EEED-5E2CF0B209A4}|LearnHub.API\\LearnHub.API.csproj|solutionrelative:learnhub.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FA2407A-504D-B693-EEED-5E2CF0B209A4}|LearnHub.API\\LearnHub.API.csproj|f:\\emad\\learnhub\\learnhub.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FA2407A-504D-B693-EEED-5E2CF0B209A4}|LearnHub.API\\LearnHub.API.csproj|solutionrelative:learnhub.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9FA2407A-504D-B693-EEED-5E2CF0B209A4}|LearnHub.API\\LearnHub.API.csproj|f:\\emad\\learnhub\\learnhub.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA2407A-504D-B693-EEED-5E2CF0B209A4}|LearnHub.API\\LearnHub.API.csproj|solutionrelative:learnhub.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9FA2407A-504D-B693-EEED-5E2CF0B209A4}|LearnHub.API\\LearnHub.API.csproj|f:\\emad\\learnhub\\learnhub.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9FA2407A-504D-B693-EEED-5E2CF0B209A4}|LearnHub.API\\LearnHub.API.csproj|solutionrelative:learnhub.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{816554FB-B357-FEA2-88EB-BBDB406E8489}|LearnHub.Infrastructure\\LearnHub.Infrastructure.csproj|f:\\emad\\learnhub\\learnhub.infrastructure\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816554FB-B357-FEA2-88EB-BBDB406E8489}|LearnHub.Infrastructure\\LearnHub.Infrastructure.csproj|solutionrelative:learnhub.infrastructure\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5594F64-FE54-D5D6-C0D4-29ABD1E38607}|LearnHub.Application\\LearnHub.Application.csproj|f:\\emad\\learnhub\\learnhub.application\\auth\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5594F64-FE54-D5D6-C0D4-29ABD1E38607}|LearnHub.Application\\LearnHub.Application.csproj|solutionrelative:learnhub.application\\auth\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,84 +33,6 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LearnHub.Infrastructure",
-              "DocumentMoniker": "F:\\Emad\\LearnHub\\LearnHub.Infrastructure\\LearnHub.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "LearnHub.Infrastructure\\LearnHub.Infrastructure.csproj",
-              "ToolTip": "F:\\Emad\\LearnHub\\LearnHub.Infrastructure\\LearnHub.Infrastructure.csproj",
-              "RelativeToolTip": "LearnHub.Infrastructure\\LearnHub.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-13T11:30:14.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LearnHub.API",
-              "DocumentMoniker": "F:\\Emad\\LearnHub\\LearnHub.API\\LearnHub.API.csproj",
-              "RelativeDocumentMoniker": "LearnHub.API\\LearnHub.API.csproj",
-              "ToolTip": "F:\\Emad\\LearnHub\\LearnHub.API\\LearnHub.API.csproj",
-              "RelativeToolTip": "LearnHub.API\\LearnHub.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-13T11:13:17.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Emad\\LearnHub\\LearnHub.API\\Program.cs",
-              "RelativeDocumentMoniker": "LearnHub.API\\Program.cs",
-              "ToolTip": "F:\\Emad\\LearnHub\\LearnHub.API\\Program.cs",
-              "RelativeToolTip": "LearnHub.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-13T11:04:38.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "F:\\Emad\\LearnHub\\LearnHub.Infrastructure\\Persistence\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "LearnHub.Infrastructure\\Persistence\\ApplicationDbContext.cs",
-              "ToolTip": "F:\\Emad\\LearnHub\\LearnHub.Infrastructure\\Persistence\\ApplicationDbContext.cs",
-              "RelativeToolTip": "LearnHub.Infrastructure\\Persistence\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAAB8AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-13T10:49:38.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "F:\\Emad\\LearnHub\\LearnHub.API\\appsettings.json",
-              "RelativeDocumentMoniker": "LearnHub.API\\appsettings.json",
-              "ToolTip": "F:\\Emad\\LearnHub\\LearnHub.API\\appsettings.json",
-              "RelativeToolTip": "LearnHub.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-11-13T11:02:39.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "F:\\Emad\\LearnHub\\LearnHub.Infrastructure\\Identity\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "LearnHub.Infrastructure\\Identity\\ApplicationUser.cs",
-              "ToolTip": "F:\\Emad\\LearnHub\\LearnHub.Infrastructure\\Identity\\ApplicationUser.cs",
-              "RelativeToolTip": "LearnHub.Infrastructure\\Identity\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-13T10:42:47.397Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
@@ -125,6 +43,71 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "F:\\Emad\\LearnHub\\LearnHub.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LearnHub.API\\Properties\\launchSettings.json",
+              "ToolTip": "F:\\Emad\\LearnHub\\LearnHub.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LearnHub.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-14T13:14:04.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Emad\\LearnHub\\LearnHub.API\\appsettings.json",
+              "RelativeDocumentMoniker": "LearnHub.API\\appsettings.json",
+              "ToolTip": "F:\\Emad\\LearnHub\\LearnHub.API\\appsettings.json",
+              "RelativeToolTip": "LearnHub.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-14T13:13:51.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "F:\\Emad\\LearnHub\\LearnHub.Application\\Auth\\DTO\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "LearnHub.Application\\Auth\\DTO\\RegisterRequest.cs",
+              "ToolTip": "F:\\Emad\\LearnHub\\LearnHub.Application\\Auth\\DTO\\RegisterRequest.cs",
+              "RelativeToolTip": "LearnHub.Application\\Auth\\DTO\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T12:55:21.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "F:\\Emad\\LearnHub\\LearnHub.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "LearnHub.API\\Controllers\\AuthController.cs",
+              "ToolTip": "F:\\Emad\\LearnHub\\LearnHub.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "LearnHub.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T12:53:05.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Emad\\LearnHub\\LearnHub.API\\Program.cs",
+              "RelativeDocumentMoniker": "LearnHub.API\\Program.cs",
+              "ToolTip": "F:\\Emad\\LearnHub\\LearnHub.API\\Program.cs",
+              "RelativeToolTip": "LearnHub.API\\Program.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAYwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-13T11:04:38.356Z",
+              "EditorCaption": ""
             }
           ]
         }

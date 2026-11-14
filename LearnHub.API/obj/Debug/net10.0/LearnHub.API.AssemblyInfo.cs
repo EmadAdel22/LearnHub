@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LearnHub.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b21d53bbb36010c717d9587a48e6e6b3969013c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c29d15c602f2750d5c0606590c7675a9d468cd5")]
 [assembly: System.Reflection.AssemblyProductAttribute("LearnHub.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LearnHub.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
